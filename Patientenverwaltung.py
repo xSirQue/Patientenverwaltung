@@ -59,7 +59,7 @@ class windowtab1():
             + Nachname + " TEXT, " + Adresse + " TEXT, " + Geburtsdatum + " TEXT, " + Geschlecht + " TEXT);")
 
         # --------------------------Text vor dem Eingabefeld-------------------------------------------------#
-        alabel = tk.Label(tab1, text='Saschko ist boosted', width=20, bg='gray35')
+        alabel = tk.Label(tab1, text='Patientenverwaltung', width=20, bg='gray35')
         alabel.config(font=("System", 20))
         alabel.grid(row=0, columnspan=2, padx=20, pady=5)
         versicherunglabel = tk.Label(tab1, text="Versicherungsnummer:", width=20, anchor='w', font=("System", 12)).grid(
